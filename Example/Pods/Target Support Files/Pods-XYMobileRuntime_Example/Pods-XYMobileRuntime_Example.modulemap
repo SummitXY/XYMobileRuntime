@@ -1,0 +1,6 @@
+framework module Pods_XYMobileRuntime_Example {
+  umbrella header "Pods-XYMobileRuntime_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

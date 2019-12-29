@@ -1,0 +1,6 @@
+framework module XYMobileRuntime {
+  umbrella header "XYMobileRuntime-umbrella.h"
+
+  export *
+  module * { export * }
+}

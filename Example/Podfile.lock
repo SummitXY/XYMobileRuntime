@@ -1,0 +1,16 @@
+PODS:
+  - XYMobileRuntime (0.1.0)
+
+DEPENDENCIES:
+  - XYMobileRuntime (from `../`)
+
+EXTERNAL SOURCES:
+  XYMobileRuntime:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XYMobileRuntime: 2503853840d69c73e1cc0afafb9d5c4eedf530ab
+
+PODFILE CHECKSUM: b07b5c9d9b8b73da81e80e9b6b66b9e85b51d3f7
+
+COCOAPODS: 1.7.4

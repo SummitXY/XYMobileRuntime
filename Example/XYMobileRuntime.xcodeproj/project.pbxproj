@@ -22,8 +22,9 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		7B2C07C13801F60963827555 /* Pods_XYMobileRuntime_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19773DD2EDA6CE19CF09F31A /* Pods_XYMobileRuntime_Tests.framework */; };
+		85188B7323B8DA420026AFE7 /* Pods_XYMobileRuntime_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51CFC64901DBA048EF24A47A /* Pods_XYMobileRuntime_Example.framework */; };
+		85188B7423B8DA420026AFE7 /* Pods_XYMobileRuntime_Example.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 51CFC64901DBA048EF24A47A /* Pods_XYMobileRuntime_Example.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		FDB6CF84B075C029ED2E0E1E /* Pods_XYMobileRuntime_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51CFC64901DBA048EF24A47A /* Pods_XYMobileRuntime_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,12 +37,26 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		85188B7523B8DA420026AFE7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				85188B7423B8DA420026AFE7 /* Pods_XYMobileRuntime_Example.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		069CF138D77D505262EA3873 /* Pods-XYMobileRuntime_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYMobileRuntime_Example.debug.xcconfig"; path = "Target Support Files/Pods-XYMobileRuntime_Example/Pods-XYMobileRuntime_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		19773DD2EDA6CE19CF09F31A /* Pods_XYMobileRuntime_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XYMobileRuntime_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A4E1F0D8807F9D9ADE6D645 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1A4E1F0D8807F9D9ADE6D645 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		2AA1E3DF9AA6F1978A0AEC03 /* Pods-XYMobileRuntime_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYMobileRuntime_Tests.release.xcconfig"; path = "Target Support Files/Pods-XYMobileRuntime_Tests/Pods-XYMobileRuntime_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3E8A05FB2DD050514C97E014 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3E8A05FB2DD050514C97E014 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		51CFC64901DBA048EF24A47A /* Pods_XYMobileRuntime_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XYMobileRuntime_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* XYMobileRuntime_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYMobileRuntime_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -64,7 +79,7 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BD9683C5874F8F5534C60E56 /* XYMobileRuntime.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XYMobileRuntime.podspec; path = ../XYMobileRuntime.podspec; sourceTree = "<group>"; };
+		BD9683C5874F8F5534C60E56 /* XYMobileRuntime.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XYMobileRuntime.podspec; path = ../XYMobileRuntime.podspec; sourceTree = "<group>"; };
 		DB5367A479085EFDA84B27BB /* Pods-XYMobileRuntime_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYMobileRuntime_Tests.debug.xcconfig"; path = "Target Support Files/Pods-XYMobileRuntime_Tests/Pods-XYMobileRuntime_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EB73891185A2D3366FF47360 /* Pods-XYMobileRuntime_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYMobileRuntime_Example.release.xcconfig"; path = "Target Support Files/Pods-XYMobileRuntime_Example/Pods-XYMobileRuntime_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,7 +92,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				FDB6CF84B075C029ED2E0E1E /* Pods_XYMobileRuntime_Example.framework in Frameworks */,
+				85188B7323B8DA420026AFE7 /* Pods_XYMobileRuntime_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,7 +208,6 @@
 				DB5367A479085EFDA84B27BB /* Pods-XYMobileRuntime_Tests.debug.xcconfig */,
 				2AA1E3DF9AA6F1978A0AEC03 /* Pods-XYMobileRuntime_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -209,6 +223,7 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				45BFEF03211F820AB1BD02B1 /* [CP] Embed Pods Frameworks */,
+				85188B7523B8DA420026AFE7 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -258,6 +273,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -497,6 +513,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XYMobileRuntime/XYMobileRuntime-Prefix.pch";
 				INFOPLIST_FILE = "XYMobileRuntime/XYMobileRuntime-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -513,6 +530,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XYMobileRuntime/XYMobileRuntime-Prefix.pch";
 				INFOPLIST_FILE = "XYMobileRuntime/XYMobileRuntime-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
